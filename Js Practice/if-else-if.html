@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If-else-If</title>
+</head>
+<body>
+    <h1>Gitanshu Kumar</h1>
+    <hr>
+    <label>Enter age</label>
+    <input type="number" name="" id="num" step="any"/>
+    <button onclick="age()"><b>Check</b></button><br>
+    <input type="text" id="res"/>
+
+</body>
+<script>
+const  num1 = document.getElementById('num').value;
+
+
+function age()
+{
+
+if(num1 >=18){
+   
+   document.getElementById('res') = " You are eligible for vote";
+}
+else{
+    document.getElementById('res') = " You are  not eligible for vote";
+}
+}
+
+
+</script>
+</html>
